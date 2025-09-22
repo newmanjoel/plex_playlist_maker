@@ -1,0 +1,27 @@
+
+
+A tool for creating local playlists from a folder of songs, as well as creating playlists from those playlist files on a plex server. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
