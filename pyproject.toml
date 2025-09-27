@@ -3,12 +3,13 @@ name = "plex-playlist-maker"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
     "fuzzywuzzy>=0.18.0",
     "mutagen>=1.47.0",
     "pandas>=2.3.2",
     "plexapi>=4.17.1",
+    "pyinstaller>=6.16.0",
     "python-dotenv>=1.1.1",
     "python-levenshtein>=0.27.1",
     "streamlit>=1.49.1",

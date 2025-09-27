@@ -1,9 +1,13 @@
 
+import logging
+logger = logging.getLogger("plex_playlist_creator")
+logger.info("create_plex_playlists")
 import argparse
 import datetime
 import os
 from pathlib import Path
 import sys
+logger.info("create_plex_playlists loading")
 import plexapi
 import plexapi.audio
 import plexapi.base
@@ -18,6 +22,7 @@ import queue
 
 from dotenv import dotenv_values
 
+logger.info("create_plex_playlsits modules loaded")
 
 
 

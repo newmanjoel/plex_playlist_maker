@@ -7,9 +7,8 @@ from pathlib import Path
 from dotenv import dotenv_values, set_key
 import pandas as pd
 
-from cli_src import create_plex_playlists
-from cli_src import create_the_CSV
-
+import create_plex_playlists
+import create_the_CSV
 
 
 st.set_page_config(page_title="Plex Management", layout='wide')

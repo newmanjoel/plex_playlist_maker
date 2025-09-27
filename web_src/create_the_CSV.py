@@ -1,12 +1,16 @@
+import logging
+logger = logging.getLogger("plex_playlist_creator")
+logger.info("create_the_csv file")
 import argparse
 from pathlib import Path
 import re
 import sys
 
+logger.info("create_the_csv file loading")
 import mutagen
 import mutagen.id3
 import pandas as pd
-
+logger.info("create_the_csv modules loaded")
 
 def cli_inputs(inputs: list[str]) -> dict[str,any]: # type: ignore
     parser = argparse.ArgumentParser(description="a tool for exporting embeded data from music files")
